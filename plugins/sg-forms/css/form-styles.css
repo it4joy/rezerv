@@ -1,0 +1,112 @@
+/* SG-Form Styles */
+
+.btn:hover, .btn:focus {
+  opacity: .85;
+  color: #fff;
+}
+
+.btn i.fa {
+  margin-right: 10px;
+}
+
+.btn-medium {
+	font-size: 14px;
+}
+
+.btn-blue {
+  background: #06c;
+  color: #fff;
+}
+
+form {
+  font-weight: 300;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+}
+
+.form-field {
+  float: left;
+  display: inline-block;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 91%;
+  height: 36px;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, .15);
+  transition: all .3s linear;
+}
+.form-field::-moz-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+.form-field:focus {
+  outline: none;
+  box-shadow: inset 0 0 5px #06c;
+}
+
+i.sign {
+  float: left;
+  display: inline-block;
+  width: 9%;
+  height: 36px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background: #06c;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+}
+
+.form-field:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+textarea.form-field {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.note-default {
+	margin-top: 15px;
+	font-style: italic;
+	color: #666;
+}
+
+.error {
+	margin-bottom: 10px;
+	color: #ff6666;
+}
+.error:before {
+	display: inline-block;
+	margin-right: 15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #ff6666;
+	text-align: center;
+	line-height: 30px;
+	font-family: FontAwesome;
+	content: "\f071";
+	color: #fff;
+}
+
+.form-msg {
+	display: none;
+	background: #efefef;
+	font-size: 2rem;
+}
+
+.msg-success {
+	color: green;
+}
+
+.msg-error {
+	color: red;
+}
