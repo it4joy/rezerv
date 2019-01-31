@@ -8,8 +8,8 @@ Simple site for cargo company
 
 ### Functionality
 
-Simple feedback
+Simple feedback (plugin)
 
-### Company
+### Implemented by
 
-Sensitive Graphics <http://sensitivegraphics.com/>
+Graphical Shell <https://graphicalshell.ru/>
